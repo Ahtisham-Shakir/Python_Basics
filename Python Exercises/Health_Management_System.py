@@ -18,7 +18,7 @@ if choice==1:
 
     # code for Shakir
     if name==1:
-        print("What do you want to lock\n"
+        print("What do you want to log\n"
               "1: For Diet\n"
               "2: For Exercise\n")
         lock = int(input())
@@ -43,7 +43,7 @@ if choice==1:
 
     # code for Ahtisham
     elif name==2:
-        print("What do you want to lock\n"
+        print("What do you want to log\n"
               "1: For Diet\n"
               "2: For Exercise\n")
         lock = int(input())
@@ -68,7 +68,7 @@ if choice==1:
 
     # code for Waleed
     else:
-        print("What do you want to lock\n"
+        print("What do you want to log\n"
               "1: For Diet\n"
               "2: For Exercise\n")
         lock = int(input())
