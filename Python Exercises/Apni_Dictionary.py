@@ -3,8 +3,8 @@ print("You can only search\n"
       "abandon\n"
       "mutable\n"
       "immutable\n")
-Dic = {"set": "Collection of well defined objects", "abandon": "Leave", "mutable":"can change", "immutable":"cannot change"}
+Dic = {"Set": "Collection of well defined objects", "Abandon": "Leave", "Mutable":"can change", "Immutable":"cannot change"}
 print("Enter word you want to search")
 w = input()
-w.capitalize()
-print("Set : ",Dic[w])
+word = w.capitalize()
+print(word ,"=", Dic[word])
